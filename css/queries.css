@@ -1,0 +1,67 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+@-ms-viewport{
+  width: device-width;
+}
+@media only screen and (max-width:1241px){
+  .titulo h1{
+    font-size: 2.5rem;
+  }
+
+  .titulo{
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row{
+    padding: 0 2%;
+  }
+}
+@media only screen and (max-width:1183px){
+
+.titulo{
+  width: 80%
+}
+.titulo h1{
+  font-size: 1.8rem;
+}
+nav{
+  width: 80%;
+}
+
+}
+
+@media only screen and (max-width:767px){
+
+  .titulo h1{
+    font-size: 1.5rem;
+  }
+  .titulo{
+    width: 75%;
+  }
+  nav{
+    width: 70%;
+  }
+
+}
+
+@media only screen and (max-width:480px){
+
+  .titulo h1{
+    font-size: 1rem;
+  }
+  .titulo{
+    width: 60%;
+  }
+  nav{
+    width: 50%;
+  }
+
+}
+@media only screen and (max-width:250px){
+
+  .titulo{
+    width: 55%;
+  }
+
+}
