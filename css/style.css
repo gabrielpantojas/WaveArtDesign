@@ -66,10 +66,14 @@ header{
 
 }
 /* -------NAV------ */
+nav{
+
+}
 .opciones__arriba{
   display: flex;
   margin-left:0;
   padding-top: 15px;
+  justify-content:center;
 }
 .logo{
   height: 4rem;
@@ -78,7 +82,9 @@ header{
 }
 .main__nav{
   display: flex;
-  margin-left: auto;
+  margin-left: 10%;
+  overflow: hidden;
+  /* justify-content: flex-end; */
 }
 .main__nav li{
   list-style: none;
@@ -122,6 +128,16 @@ header{
     float: left;
     margin: 5px 0;
 }
+.menu{
+  text-decoration: none;
+  font-size: 2rem;
+  color: #fff;
+  margin: 5px 0 0 0;
+  padding-right: 10px;
+  visibility: hidden;
+}
+
+
 /* +++++++++TITULO+++++++ */
 .titulo{
   position: absolute;
