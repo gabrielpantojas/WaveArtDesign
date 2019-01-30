@@ -51,6 +51,7 @@ nav{
   .menu{
     visibility: visible;
     margin-top: 35px;
+    margin-right: 250px;
   }
   .titulo h1{
     font-size: 1.5rem;
