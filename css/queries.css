@@ -52,6 +52,7 @@ nav{
     visibility: visible;
     margin-top: 35px;
     margin-right: 250px;
+
   }
   .titulo h1{
     font-size: 1.5rem;
@@ -86,6 +87,7 @@ nav{
     width: auto;
     margin-top: 1rem;
     margin-right: 105px;
+    margin-left: -50px;
   }
 
   .opciones__arriba{
