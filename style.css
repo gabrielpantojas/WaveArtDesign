@@ -1,0 +1,283 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 400;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.nav-bar {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  height: 8rem;
+  background-color: #2a2736;
+  text-align: center;
+  line-height: 300%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-bar__logo {
+  height: 120%;
+  float: left;
+  margin-left: 4%;
+}
+
+.nav-bar__lists {
+  margin-left: 25%;
+  margin-right: 10%;
+  list-style: none;
+  letter-spacing: .5rem;
+}
+
+.nav-bar__lists a li {
+  margin: 0;
+  height: 8rem;
+  float: left;
+  padding: 1.5rem;
+  color: #fff;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+.nav-bar__lists a li:hover {
+  background-color: #998051;
+}
+
+.arriba {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.5))), url(img/henry-co-180108-unsplash.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(img/henry-co-180108-unsplash.jpg);
+  height: 95vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+}
+
+.arriba__titulo {
+  color: #fff;
+  font-weight: 100;
+  font-size: 5.7rem;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  top: 45%;
+  left: 5%;
+}
+
+.AboutUS {
+  background-color: #eee;
+  height: 50rem;
+  padding: 4rem;
+  text-align: justify;
+}
+
+.AboutUS__title-1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 300;
+  padding-bottom: 3rem;
+}
+
+.AboutUS__info {
+  text-align: center;
+}
+
+.AboutUS__info img {
+  width: 60%;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 1rem #777;
+          box-shadow: 0 0 1rem #777;
+}
+
+.AboutUS__info p {
+  padding-left: 3rem;
+  text-align: justify;
+  font-size: 1.7rem;
+  line-height: 3rem;
+  width: 70%;
+}
+
+.WeDO {
+  height: 55rem;
+  background-color: #2a2736;
+}
+
+.WeDO__title-2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 300;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.WeDO__promo {
+  margin-top: 3rem;
+  padding-top: 4rem;
+}
+
+.WeDO__promo img {
+  width: 90%;
+}
+
+.foto {
+  background-image: url(img/bayamon.jpeg);
+  background-size: cover;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.barra {
+  background-color: #2a2736;
+  height: 10rem;
+}
+
+.barra__us {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 300;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.gallery {
+  height: 60rem;
+}
+
+.gallery__titulo {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 300;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+  background-color: #2a2736;
+}
+
+.gallery__fotos {
+  text-align: center;
+}
+
+.gallery__fotos-1_a {
+  margin-top: 2rem;
+  border-radius: 10px;
+  height: 43rem;
+  width: 100%;
+}
+
+.gallery__fotos-2_b {
+  margin-top: 2rem;
+  border-radius: 10px;
+  height: 43rem;
+  width: 100%;
+}
+
+.gallery__more {
+  margin-top: 48rem;
+  text-align: center;
+}
+
+.gallery__more-btn {
+  color: #821e8b;
+  display: inline-block;
+  margin-left: 25%;
+  text-decoration: none;
+  font-size: 260%;
+  border: 2px solid #821e8b;
+  border-radius: 10px;
+  padding: .5rem 1.2rem;
+  text-transform: uppercase;
+  margin-left: 0;
+}
+
+.gallery__more-btn:hover {
+  background-color: #821e8b;
+  color: #fff;
+}
+
+.contact {
+  padding: 5rem 0;
+  height: 30rem;
+}
+
+.contact__1 {
+  text-align: center;
+}
+
+.contact__1 textarea {
+  width: 80%;
+  background-color: rgba(218, 137, 238, 0.418);
+}
+
+.contact__1 textarea:focus {
+  outline: none;
+}
+
+.contact__2 label {
+  padding: 0 4rem;
+  font-size: 150%;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.contact__2 input {
+  margin: 0 4rem;
+  width: 65%;
+  display: block;
+  border: none;
+  border-bottom: 2px solid #821e8b;
+}
+
+.contact__2 input:focus {
+  outline: none;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.contact__2 input:focus:invalid {
+  border-bottom: 3px solid #eee;
+}
+
+.contact__2 input::-webkit-input-placeholder {
+  color: #2a2736;
+}
+
+.contact__2-btn {
+  color: #821e8b;
+  display: inline-block;
+  margin-left: 25%;
+  text-decoration: none;
+  font-size: 260%;
+  border: 2px solid #821e8b;
+  border-radius: 10px;
+  padding: .5rem 1.2rem;
+  text-transform: uppercase;
+}
+
+.contact__2-btn:hover {
+  background-color: #821e8b;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
