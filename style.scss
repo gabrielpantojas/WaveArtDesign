@@ -236,8 +236,11 @@ body {
 .contact {
     // border: 5px solid blue;
     padding: 5rem 0;
-    height: 30rem;
+    height: 50rem;
 
+    &__form{
+        padding-top: 7rem;
+    }
     &__1 {
         // border: 2px solid red;
         text-align: center;
@@ -291,5 +294,22 @@ body {
         &-btn {
             @include btn;
         }
+    }
+}
+
+.footer{
+    height: 25rem;
+    background-color: $color-dark;
+    &__logo{
+
+        &-1{
+            height: 25rem;
+        }
+    }
+    &__social{
+        padding-top: 3rem;
+        color: $color-white;
+        text-align: center;
+        font-size: 10rem;
     }
 }
