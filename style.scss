@@ -171,7 +171,7 @@ body {
 }
 
 .foto {
-    background-image: url(img/bayamon.jpeg);
+    background-image: url(img/bayamon3.jpeg);
     background-size: cover;
     height: 50vh;
     background-repeat: no-repeat;
@@ -220,11 +220,12 @@ body {
     }
 
     &__more {
-        margin-top: 48rem;
-        text-align: center;
+        margin-top: 49rem;
+        text-align: right;
 
         &-btn {
             @include btn;
+            font-size: 180%;
             
 
             margin-left: 0;
